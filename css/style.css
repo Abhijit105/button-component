@@ -2,6 +2,12 @@
 /* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
 @import 'tailwindcss';
 
+@theme {
+  --line-md: 20px;
+  --line-lg: 24px;
+  --line-xl: 28px;
+}
+
 body {
   margin: 0;
   font-family: 'Noto Sans', system-ui, -apple-system, BlinkMacSystemFont,
